@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 pipeline {
      agent {
-         docker { image 'circleci/python:3.7' }
+         docker { image 'pytest' }
      }
 
         stages {
