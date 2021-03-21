@@ -9,7 +9,8 @@ pipeline {
             parallel {
                 stage('parallel 1') {
                     steps {
-                        sh 'pytest'
+                        sh 'python --version'
+                        // sh 'pytest'
                     }
                 }
                 stage('parallel 2') {
