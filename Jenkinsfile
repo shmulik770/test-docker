@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 pipeline {
      agent {
-         docker { image 'python:3.8-slim' }
+         docker { image 'python:3.8' }
      }
 
         stages {
